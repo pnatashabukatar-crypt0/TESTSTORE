@@ -1,0 +1,81 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production.local
+.env.test.local
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swc
+.DS_Store
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# OS files
+Thumbs.db
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# Docker
+.dockerignore
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+.tmp/
+*.tmp
+.cache/
+
+# Node
+.npm
+.eslintcache
+.node_repl_history
+
+# Backend specific
+backend/.env
+backend/.env.local
+backend/dist/
+backend/coverage/
+backend/logs/
+
+# Frontend specific
+frontend/.env
+frontend/.env.local
+frontend/dist/
+frontend/coverage/
+.output
+.nuxt
+dist
